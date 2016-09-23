@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Day28ShoppingTrolleys</string>
+    <string name="shopping">购物车</string>
+    <string name="eidt">编辑</string>
+    <string name="add">添加</string>
+    <string name="clear">清空</string>
+    <string name="ok">确定</string>
+</resources>

@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.yasin.homeworkviewpager.fragments.FirstFragment">
+
+    <RadioGroup
+        android:id="@+id/first_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/recommend"
+            style="@style/MainTab_bar"
+            android:text="推荐"/>
+
+        <RadioButton
+            android:id="@+id/video"
+            style="@style/MainTab_bar"
+            android:text="视频"/>
+
+        <RadioButton
+            android:id="@+id/duanzi"
+            style="@style/MainTab_bar"
+            android:text="段子"/>
+
+        <RadioButton
+            android:id="@+id/picture"
+            style="@style/MainTab_bar"
+            android:text="图片"/>
+
+        <RadioButton
+            android:id="@+id/circle"
+            style="@style/MainTab_bar"
+            android:text="圈子"/>
+    </RadioGroup>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/first_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

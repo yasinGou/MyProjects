@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <!--
+        item 一个菜单项
+        必须设置id title属性
+        另外一些属性：ActionBar功能中使用
+
+        -->
+    <item
+        android:id="@+id/acition_settings"
+        android:title="@string/settings"
+        />
+    <item
+        android:id="@+id/actions_help"
+        android:title="@string/help"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="always"
+        />
+</menu>

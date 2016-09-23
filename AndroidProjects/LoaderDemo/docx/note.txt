@@ -1,0 +1,7 @@
+Loader 的使用
+
+1.创建loader ，使用LoaderManager
+2.接口方法onCreateLoader来创建实际的Loader对象
+
+3. Loader开始加载数据，完成时调用onFinished 方法
+3.Activity onDestroy 重置Loader

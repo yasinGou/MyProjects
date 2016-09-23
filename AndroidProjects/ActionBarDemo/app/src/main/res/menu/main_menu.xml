@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+   <!--        android:orderInCategory="2"
+              优先级
+              按数字升序排列
+              先将没有优先级设置的菜单按xml上的顺序显示，再显示有设置优先级的菜单
+
+              -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="2"
+        android:title="设置"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="1"
+        android:title="搜索"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="ifRoom"
+        />
+    <!--<item-->
+        <!--android:id="@+id/actions_about1"-->
+        <!--android:title="关于"-->
+        <!--app:showAsAction="ifRoom"/>-->
+    <!--<item-->
+        <!--android:id="@+id/actions_about2"-->
+        <!--android:title="关于"-->
+        <!--app:showAsAction="ifRoom"/>-->
+    <!--<item-->
+        <!--android:id="@+id/actions_about3"-->
+        <!--android:title="关于"-->
+        <!--app:showAsAction="always"/>-->
+</menu>

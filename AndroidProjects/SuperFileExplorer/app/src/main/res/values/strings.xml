@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SuperFileExplorer</string>
+    <string name="message">第一次使用请设置启动密码</string>
+</resources>

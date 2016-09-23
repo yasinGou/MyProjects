@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yasin.day20demo.MainActivity">
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:text="@string/title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <!--
+     设置透明度
+      android:alpha="0.5"
+      为背景着色 把背景图片的非镂空的地方着色
+      android:backgroundTint="#ff0"
+      图片的宽或高一个是固定值，一个是包裹内容，这样可以使他适应一个固定值的大小等比例放大
+       android:adjustViewBounds="true"
+         android:scaleType="fitCenter"
+    -->
+    <!--
+    默认点击是false
+    android:clickable="true"-->
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/view"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:background="@drawable/sel_bg"
+        android:src="@mipmap/ic_launcher"
+        android:clickable="true"/>
+   <TextView
+       android:id="@+id/view1"
+       android:layout_below="@+id/image"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="你好 你好 你好  你好  你好 你好!"
+       android:layout_margin="20dp"
+       android:textSize="20dp"
+       android:inputType="text|textMultiLine"
+       android:ellipsize="end"
+       />
+    <!--自定义option       android:imeActionId="1"
+                         android:imeActionLabel="发送"
+       设置文本的多行显示，否则就是单行的   android:inputType="text|textMultiLine"  -->
+    <EditText
+        android:id="@+id/edit"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view1"
+        android:background="@drawable/set_edit"
+        android:hint="hello"
+        android:inputType="text"
+        android:imeOptions="actionSend"
+
+
+        />
+
+</RelativeLayout>

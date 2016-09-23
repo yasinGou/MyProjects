@@ -1,0 +1,16 @@
+自定义的内容提供者
+1.继承ContentProvider
+2.实现增删改查方法 以及onCreat方法
+3.制定Uri的网址规则，形成特定的规则
+4.四大组件都需要在清单文件中注册，确认内容提供者是否可以被其他程序访问
+5.内部需要进行数据操作 增删改查
+   5.1 确认使用数据库类型：SQLite
+   5.2 onCreat 方法，需要初始化
+   5.3 每一个操作的方法第一个参数都代表了操作的那一张表，通过Uri来表示
+   5.4 使用UriMatcher类对象，进行网址匹配，判断访问哪一个表
+关于Uri 与authorities说明
+
+Uri 一个网址
+    规则   content：//<authorities>/path/path
+
+    authority： Android系统中内容提供者的唯一标识

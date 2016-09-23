@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.yasin.fragmentdemo">
+
+    <!--
+      android:configChanges="keyboardHidden|orientation|screenSize"-
+       当屏幕翻转后不会重新调用Activity的各个生命周期
+       如果不这样设置
+       横屏时，重新开始一次生命周期
+       切换到竖屏后，重新开始两次
+       pause  stop  destroy create start  resume
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--动画定义的集合，使用set来包含多个动画
+如果只有一个动画效果，可以直接写动画指令
+
+
+-->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--所有的动画效果都需要设置duration属性   必须手写，无提示-->
+    <translate
+        android:duration="1000"
+        android:fromYDelta="0"
+        android:toYDelta="-200"
+        android:fromXDelta="0"
+        android:toXDelta="+200"
+        />
+    <!--alpha  动画  控件消失
+    startOffset:代表当前效果在动画启动多长时间后，执行
+    android:startOffset="1000"
+    -->
+    <alpha
+
+        android:duration="1000"
+        android:fromAlpha="1"
+        android:toAlpha="0"
+
+        />
+
+</set>

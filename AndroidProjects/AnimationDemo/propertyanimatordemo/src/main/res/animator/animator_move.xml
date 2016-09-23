@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--设置对象属性修改器，可以在指定的时间内，将指定的属性从一个数值变化到另一个数值-->
+    <objectAnimator
+        android:duration="2000"
+        android:propertyName="translationX"
+        android:valueType="floatType"
+        android:valueFrom="0dp"
+        android:valueTo="200dp"
+        />
+    <objectAnimator
+        android:duration="1000"
+        android:propertyName="rotation"
+        android:valueType="floatType"
+        android:valueFrom="0"
+        android:valueTo="360"
+
+
+        />
+
+
+</set>

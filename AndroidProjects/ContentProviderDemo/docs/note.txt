@@ -1,0 +1,11 @@
+1.内容提供者的使用
+1）ContentResolver 客户端
+2）提供Uri对象 （网址）Android内部提供了很多常量类来访问
+3）访问Android内部不的提供者需要声明权限
+4)在Android API 23以上，所有内部的提供者都需要动态权限检查。
+
+2.联系人获取
+1)联系人使用 ContactsContract 常量类来获取地址和列字段
+2）使用SimpleCursorAdapter时， 最后一个参数，代表可以自动收到联系人的变化，自动刷新listview
+3)ContentProvider+Loader.仅限于android自带的内容提供者
+4)获取联系人详情，需要使用Data表。通过联系人的ID来查找

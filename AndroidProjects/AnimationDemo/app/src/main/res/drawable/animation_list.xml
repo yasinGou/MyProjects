@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:oneshot="true"
+      动画只播放一次，但依然处于运行状态
+      只有stop后，才会重新开始
+
+-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <item
+        android:drawable="@mipmap/d00"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/d01"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/d02"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/d03"
+        android:duration="300"/>
+    <item
+        android:drawable="@mipmap/d04"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/d05"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/d06"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/d07"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/d08"
+        android:duration="100"/>
+    <item
+        android:drawable="@mipmap/d09"
+        android:duration="100"/>
+</animation-list>

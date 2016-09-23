@@ -1,0 +1,15 @@
+图灵key:
+
+92d71b06fbb3477ab3d844963a53ff8a
+网址
+http://www.tuling123.com/openapi/api
+请求方式： POST
+
+请求参数格式为 json
+请求示例：
+{
+" key" : "APIKEY",
+"info" : "今天天气怎么样"
+"loc":"北京市中关村"
+"userid": "123456"
+}
