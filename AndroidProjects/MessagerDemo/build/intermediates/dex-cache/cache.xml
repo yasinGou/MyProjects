@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1df13460ff24c9634099efd4b7577f710e9f7a34">
+        <dex dex="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5fe9fdf607259c6d36f7dc89bd6a09da85b9d5a0\classes.dex" />
+    </item>
+    <item
+        jar="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_278b248fb56221f8f6f8765d7f6f0cb8b714904a\classes.dex" />
+    </item>
+    <item
+        jar="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_c380b46734cd2771eec0c18ce0998ca73616dde8\classes.dex" />
+    </item>
+    <item
+        jar="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_2ac819eeeb512b8eb75cd58e82c0823c6f61cda1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_f7486936d20fe5cecace9f191cb695dc35bd15ff\classes.dex" />
+    </item>
+    <item
+        jar="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="433f8d7a88a190048e3ccddd854faef302e29eab">
+        <dex dex="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_26bd5e86481675d36b33b8bc5fcd85e49c9d2e52\classes.dex" />
+    </item>
+    <item
+        jar="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_4107a000e55be6a6bd2cf1d3884bf687023ca331\classes.dex" />
+    </item>
+    <item
+        jar="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="F:\myrepository\AndroidProjects\MessagerDemo\messegerclient\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_20cbfeba1935c127177d4039aa7c74ef01740130\classes.dex" />
+    </item>
+
+</items>
