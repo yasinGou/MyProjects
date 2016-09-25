@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+
+    <!-- Android WebView 需要指定的屏幕适配-->
+    <meta name="viewport"
+          content="
+          width=device-width,
+          initial-scale=1,
+          user-scalable=yes"
+    />
+
+    <!--android 网页显示的图片设置宽度100%显示，则会匹配到屏幕大小显示。-->
+
+    <style type="text/css" >
+        img {width:100%}
+    </style>
+    <title>我的第一个网页</title>
+
+    <script type="application/javascript">
+        function showAndroidToast(msg){
+        //通过window.xxx 可以调用Java类。webview.addJavaScriptInterface()
+        //的第二个参数
+            window.myandroid.showToast(msg);
+        }
+
+        function showDevice(){
+            var txt=document.getElementById("device_name");
+            if(txt!=null){
+             txt.innerHTML=window.myandroid.getDeviceMode();
+            }
+        }
+    </script>
+</head>
+<body>
+
+我是一个网页程序<br/>
+<a href="app1/index.html">查看app1</a>
+<form action="">
+    用户名：<input type="text" name="user_name"/><br/>
+    密码：  <input type="password" name="password"><br/>
+    <input type="submit" value="登录"/>
+</form>
+</body>
+
+<input type="button" value="显示Toast" onclick="showAndroidToast('我从草原来')"/>
+
+<div id="device_name">
+
+</div>
+
+</html>
