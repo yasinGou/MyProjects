@@ -25,13 +25,13 @@ public class ReceiveEndCall extends BroadcastReceiver {
        // BlockList b=new BlockList(context);Context context1 = context.getApplicationContext();
         MyApplication application = (MyApplication) context.getApplicationContext();
         String telphoneNum = application.getTelphoneNum();
-
+        Log.d("Receiver", "onReceive: "+telphoneNum);
         if(intent.getAction().equals(Intent.ACTION_NEW_OUTGOING_CALL)){
 
             //如果是去电（拨出）
             String num=getResultData();
 
-            if(num.equals(telphoneNum)){
+            if(num.equals("15736873273")){
                 setResultData(null); //清除电话
            //     break;
             }
@@ -41,7 +41,7 @@ public class ReceiveEndCall extends BroadcastReceiver {
             String state = intent.getStringExtra(TelephonyManager.EXTRA_STATE);
             String number = intent.getStringExtra(TelephonyManager.EXTRA_INCOMING_NUMBER);
             if(state.equalsIgnoreCase(TelephonyManager.EXTRA_STATE_RINGING)){
-                if(number.equals(telphoneNum)){//拦截指定的电话号码
+                if(number.equals("15736873273")){//拦截指定的电话号码
                     //先静音处理
                     mAudioManager.setRingerMode(AudioManager.RINGER_MODE_SILENT);
                     try {

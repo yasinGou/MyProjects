@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yasin.customview1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.yasin.customview1.widgets.AlipayEditText
+            android:id="@+id/ed_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:inputType="number"
+            android:maxLength="6"
+            android:maxLines="1"
+            android:textColor="#0ff"
+            android:textSize="20sp"
+            android:nextFocusRight="@+id/ed_1"
+            />
+
+        <com.yasin.customview1.widgets.AlipayEditText
+            android:id="@+id/ed_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="6"
+            android:maxLines="1"
+            android:textColor="#0ff"
+            android:textSize="20sp"
+            android:nextFocusLeft="@id/ed_0"
+            android:nextFocusRight="@+id/ed_2"
+            />
+
+        <com.yasin.customview1.widgets.AlipayEditText
+            android:id="@+id/ed_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="6"
+            android:maxLines="1"
+            android:textColor="#0ff"
+            android:textSize="20sp"
+            android:nextFocusLeft="@id/ed_1"
+            />
+    </LinearLayout>
+</LinearLayout>

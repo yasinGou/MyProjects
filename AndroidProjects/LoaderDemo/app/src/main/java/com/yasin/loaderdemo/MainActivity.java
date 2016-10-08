@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     @Override
     public void onLoadFinished(Loader<Cursor> loader, Cursor data) {
         //刷新数据的部分
+        System.out.println("MainActivity.onLoadFinished");
         adapter.changeCursor(data);
     }
 

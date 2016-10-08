@@ -21,7 +21,7 @@ import java.util.List;
  * Created by Administrator
  * Date: 2016-09-02.
  */
-public class MyAdapter extends BaseAdapter {
+public class  MyAdapter extends BaseAdapter {
     private static final String TAG = MyAdapter.class.getSimpleName();
     private final LayoutInflater inflater;
     private Context context;

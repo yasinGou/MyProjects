@@ -20,7 +20,7 @@ public class NetworkTask<T> extends AsyncTask<NetworkTask.myCallback<T>, Void,Ob
     public NetworkTask(Class<T> t, String url) {
         this.t = t;
         this.url = url;
-    }
+}
 
     @Override
     protected Object doInBackground(myCallback<T>... params) {

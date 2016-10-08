@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--自定义属性的资源-->
+
+    <declare-styleable name="NotePad">
+        <attr name="lineColor" format="color" />
+        <!--只要和尺寸有关，都应该是dimension  可以使用多少dp-->
+        <attr name="strokeWidth" format="dimension"/>
+    </declare-styleable>
+
+
+</resources>

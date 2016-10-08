@@ -20,7 +20,7 @@ import java.util.Locale;
  * Created by Administrator
  * Date: 2016-08-31.
  */
-public class ImageLoader extends AsyncTask<ImageView,String,Bitmap>{
+public class  ImageLoader extends AsyncTask<ImageView,String,Bitmap>{
     private String url;
     private ImageView image;
     private TextView textView;
